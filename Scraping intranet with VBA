@@ -121,10 +121,10 @@ Application.Wait (Now() + TimeValue("0:0:10"))
 Set HTMLDoc = IE.document
 
 Set HTMLInput = HTMLDoc.getElementById("txtUserName")
-HTMLInput.Value = "admin"
+HTMLInput.Value = "**********"
 
 Set HTMLInput = HTMLDoc.getElementById("txtPassword")
-HTMLInput.Value = "@Tastyafrican01"
+HTMLInput.Value = "**********"
 
 Set HTMLA = HTMLDoc.getElementById("ButtonLogin")
 HTMLA.Click
